@@ -1,5 +1,5 @@
 
-Lineage 19.0 for Osprey
+Lineage 19.0 for A37
 =======================
 
 Current Status

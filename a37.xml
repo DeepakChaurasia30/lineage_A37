@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="https://github.com/chil360" name="chil360"/>
-
-	<project name="android_device_motorola_osprey" path="device/motorola/osprey" remote="chil360" revision="lineage-19.1" />
-	<project name="android_device_motorola_msm8916-common" path="device/motorola/msm8916-common" remote="chil360" revision="lineage-19.1" />
-	<project name="android_kernel_motorola_msm8916" path="kernel/motorola/msm8916" remote="chil360" revision="12.0" />
-	<project name="proprietary_vendor_motorola" path="vendor/motorola" remote="chil360" revision="12.0" />
+	<remote fetch="https://github.com/DeepakChaurasia30" name="DeepakChaurasia30"/>
+	<project name="android-device_oppo_A37" path="device/oppo/a37" remote="DeepakChaurasia30" revision="lineage-19.1" />
+	<project name="android-vendor_oppo_A37" path="vendor/oppo/a37" remote="DeepakChaurasia30" revision="lineage-19.1" />
+	<project name="kernel_oppo_msm8939" path="kernel/oppo/msm8939" remote="DeepakChaurasia30" revision="deepak-test-branch/lineage-19.1" />
 
 	<!-- Additional repos -->
-  	<project path="hardware/motorola" name="LineageOS/android_hardware_motorola" remote="github" revision="lineage-19.1" />
+    <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="github" revision="lineage-18.1" />
 	<project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-18.1" />
 	<project name="LineageOS/android_system_qcom" path="system/qcom" groups="qcom" remote="github" revision="lineage-19.1" />
 
