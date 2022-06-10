@@ -36,5 +36,6 @@ repopick -t twelve-legacy-camera
 
 # Extras
 repopick 320514
-repopick -f 326552
-repopick 325894
+
+# WiFi
+repopick 325387
